@@ -9,6 +9,6 @@ if (output === expected) {
 } else {
     console.group();
     console.log("Test for part 2 failed");
-    console.log("Expected: " + 12 + ", Output: " + output);
+    console.log("Expected: " + expected + ", Output: " + output);
     console.groupEnd();
 }

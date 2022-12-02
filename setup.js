@@ -16,7 +16,7 @@ if (output === expected) {
 } else {
     console.group();
     console.log("Test for part ${part} failed");
-    console.log("Expected: " + ${expected} + ", Output: " + output);
+    console.log("Expected: " + expected + ", Output: " + output);
     console.groupEnd();
 }
 `;
