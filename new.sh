@@ -3,7 +3,7 @@ echo What day is it?
 read day 
 
 # Add the testfiles
-touch input/$day-text.txt
+touch input/$day-test.txt
 touch input/$day.txt
 
 # Create a new folder with the day name
