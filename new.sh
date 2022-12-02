@@ -2,7 +2,7 @@
 echo What day is it? 
 read day 
 
-# Add the testfiles
+# Add the input files
 touch input/$day-test.txt
 touch input/$day.txt
 
