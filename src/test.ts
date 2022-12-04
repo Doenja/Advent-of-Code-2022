@@ -1,14 +1,14 @@
 
-import { part2 } from "./dec2/part2";
+import { part1 } from "./dec3/part1";
 
-const expected = 12;
-const output = part2("input/dec2-test.txt");
+const expected = 157;
+const output = part1("input/dec3-test.txt");
 
 if (output === expected) {
-    console.log("Test for part 2 is a success!");
+    console.log("Test for part 1 is a success!");
 } else {
     console.group();
-    console.log("Test for part 2 failed");
+    console.log("Test for part 1 failed");
     console.log("Expected: " + expected + ", Output: " + output);
     console.groupEnd();
 }
